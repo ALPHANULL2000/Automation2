@@ -1,0 +1,35 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+
+:root {
+    --borderRadTD: 6px;
+    --transGlobal: 300ms;
+}
+
+table {
+    border: darkgray 2px dotted;
+    border-radius: 6px;
+    padding: 6px;
+}
+
+#btnUpdateCommit {
+    background: #b4b4ff;
+    color: purple;
+    border: magenta 1px solid;
+    border-radius: var(--borderRadTD);
+    transition: var(--transGlobal);
+}
+
+#btnUpdateCommit:hover {
+    background: purple;
+    color: lightpink;
+    border: mediumvioletred 1px solid;
+    border-radius: var(--borderRadTD);
+    transition: var(--transGlobal);
+}
+
+#headerMain {
+    font-family: 'Audiowide', cursive;
+}
+
+

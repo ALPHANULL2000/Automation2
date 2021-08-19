@@ -1,0 +1,30 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+:root {
+    --borderRadTD: 6px;
+    --transGlobal: 300ms;
+}
+
+#btnStart {
+    background: #d5cfcf;
+    color: #424242;
+    padding: 6px;
+    border: #486c86 2px solid;
+    border-radius: var(--borderRadTD);
+    transition: var(--transGlobal);
+}
+
+#btnStart:hover {
+    background: #228000;
+    color: #1ee701;
+    border: #1e2116 1px solid;
+    transition: var(--transGlobal);
+}
+
+#headerTime {
+    color: darkcyan;
+    font-family: 'Bebas Neue', cursive;
+}
+
+

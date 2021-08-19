@@ -1,0 +1,38 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+
+:root {
+    --transGlobal: 300ms;
+    --borderRadTD: 6px;
+}
+
+.springInput { width: 81%; }
+.tabData { text-align: center; }
+
+#btnSearchCommitAttr {
+    background: whitesmoke;
+    color: black;
+    border: black 1px solid;
+    border-radius: var(--borderRadTD);
+    transition: var(--transGlobal);
+}
+
+#btnSearchCommitAttr:hover {
+    background: darkgray;
+    color: white;
+    border: black 1px solid;
+    border-radius: var(--borderRadTD);
+    transition: var(--transGlobal);
+}
+
+#tabMain {
+    width: 51%;
+    border: darkgray 3px dotted;
+    border-radius: 6px;
+    padding: 6px;
+}
+
+#headerMain {
+    font-family: 'Audiowide', cursive;
+}

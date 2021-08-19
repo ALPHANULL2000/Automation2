@@ -1,0 +1,89 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+
+.tabData { text-align: center; }
+.tabForm { width: 100%; }
+.tabRow { width: 81%; }
+.springInput { width: 81%; }
+
+:root {
+    --borderRadTD: 6px;
+    --transGlobal: 300ms;
+}
+
+#tabMain {
+    width: 51%;
+    border: darkgray 3px dotted;
+    border-radius: 6px;
+    padding: 6px;
+}
+
+#btnSearchCommitId {
+    background: #b4b4ff;
+    color: purple;
+    border: magenta 1px solid;
+    border-radius: var(--borderRadTD);
+    transition: var(--transGlobal);
+}
+
+#btnSearchCommitId:hover {
+    background: purple;
+    color: lightpink;
+    border: mediumvioletred 1px solid;
+    border-radius: var(--borderRadTD);
+    transition: var(--transGlobal);
+}
+
+#btnSearchCommitAge {
+    background: #b4dfff;
+    color: #0d0080;
+    border: #0066ff 1px solid;
+    border-radius: var(--borderRadTD);
+    transition: var(--transGlobal);
+}
+
+#btnSearchCommitAge:hover {
+    background: #040080;
+    color: #b6f0ff;
+    border: #1589c7 1px solid;
+    border-radius: var(--borderRadTD);
+    transition: var(--transGlobal);
+}
+
+#btnSearchCommitName {
+    background: #b4ffc0;
+    color: #0d8000;
+    border: #248465 1px solid;
+    border-radius: var(--borderRadTD);
+    transition: var(--transGlobal);
+}
+
+#btnSearchCommitName:hover {
+    background: #008062;
+    color: #e3ffb6;
+    border: #15c780 1px solid;
+    border-radius: var(--borderRadTD);
+    transition: var(--transGlobal);
+}
+
+#btnSearchCommitEmail {
+    background: #ffe6b4;
+    color: #ad6b06;
+    border: #843224 1px solid;
+    border-radius: var(--borderRadTD);
+    transition: var(--transGlobal);
+}
+
+#btnSearchCommitEmail:hover {
+    background: #804200;
+    color: #ffdeb6;
+    border: #c7c415 1px solid;
+    border-radius: var(--borderRadTD);
+    transition: var(--transGlobal);
+}
+
+#headerMain {
+    font-family: 'Audiowide', cursive;
+}
+
+
